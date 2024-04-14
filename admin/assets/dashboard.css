@@ -1,0 +1,180 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    /* rtl:raw:
+  right: 0;
+  */
+    bottom: 0;
+    /* rtl:remove */
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 48px 0 0;
+
+    /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 0;
+
+    }
+
+    .akun {
+        visibility: hidden;
+    }
+
+}
+
+.sidebar-sticky {
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #252525;
+    padding: 14px 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav .nav-item a:is(:link, :active, :visited).active {
+    color: #d17792;
+}
+
+
+.sidebar .nav-link>i {
+    margin-right: 10px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #d17792;
+    font-weight: 500;
+    color: #fff;
+}
+
+.sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+}
+
+
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+    right: 1rem;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+/* Beranda or Dashboard*/
+
+.text-box {
+    border-radius: 8px;
+    padding: 30px 30px 10px 30px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(134, 100, 100, 0.2), 0 6px 20px 0 rgba(102, 71, 71, 0.19);
+}
+
+p.main-text {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/* Profile */
+
+.akun {
+    margin-right: 20px;
+}
+
+.akun strong {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Button */
+#btnDefault {
+    background-color: #d17792;
+    border: 2px solid #d17792;
+}
+
+#btnDefault:hover {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.24), 0 4px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btnDelete {
+    font-size: 16px;
+}
+
+#btnEdit {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Label */
+.form-label {
+    font-weight: 700;
+}
+
+#page-inner {
+    /* background-color: #fff;
+    margin-top: -20px; */
+    margin-bottom: 20px;
+    /* padding: 20px;
+    border-radius: 14px;
+    box-shadow: 2px 4px 4px 0 rgba(102, 71, 71, 0.19); */
+}
+
+.sub-prop {
+    border: 2px dashed #0000003f;
+    padding: 12px 20px;
+}

@@ -1,0 +1,440 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+    font-family: 'Poppins', sans-serif,'Roboto';
+}
+
+.sub-prop{
+    border: 2px dashed #D17792;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+}
+
+.ubah-foto{
+    flex: auto;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.bgLogin {
+    background-color: #D17792;
+    background: linear-gradient(135deg, #D17792 0%, #E31E58 100%);
+    background-image: linear-gradient(to right, #D17792 , #E31E58);
+}
+
+#map {
+  height: 100%;
+}
+
+ #wrapper {
+    width: 100%;
+    background:#ffffff;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background: rgba(209, 119, 146, 8%);
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 0px 10px 0px;
+    background-color: rgba(209, 119, 146, 0)!important;
+    padding:10px;
+    border: none;
+    min-height:1200px;
+}
+
+.container-admin{
+    margin-top: 40px;
+}
+
+.no-border {
+    border:0px solid #fff;
+}
+h2 {
+    color: #1c1c1c;
+}
+h4 {
+    padding-top:10px;
+}
+.square-btn-adjust {
+border: 0px solid transparent; 
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+
+}
+p {
+    font-size:16px;
+    line-height:25px;
+    padding-top: 20px;
+}
+/*==============================================
+   DASHBOARD STYLES    
+    =============================================*/
+.panel-back {
+    background-color:#fff;
+
+}
+.noti-box {
+    border-radius: 10px;
+    padding: 30px;
+    min-height: 100px;
+}
+
+.noti-box .icon-box {
+float: left;
+width: 70px;
+height: 70px;
+line-height: 75px;
+font-size: 40px;
+
+}
+
+span.icon-box{
+    padding-top: 20px;
+}
+
+.text-box p{
+    margin: 0 0;
+    background-color: #fff;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.set-icon {
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+
+    .bg-color-green {
+background-color: #00CE6F;
+color: #fff;
+}
+ .bg-color-blue {
+background-color: #A95DF0;
+color: #fff;
+}
+  .bg-color-red {
+background-color: #DB0630;
+color: #fff;
+}
+  .bg-color-brown {
+background-color: #B94A00;
+color: #fff;
+}
+
+
+ .icon-box-right {
+display: block;
+float: right;
+margin: 0 15px 10px 0;
+line-height: 75px;
+text-align: center;
+font-size: 40px;
+}
+
+ .main-temp-back {
+background: #8702A8;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 300;
+text-align: center;
+}
+ .main-temp-back .text-temp {
+font-size: 40px;
+}
+.back-dash {
+    font-size:20px;
+    font-weight:500;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background-color:#2EA7EB;
+    color:#fff;
+    padding:20px;
+}
+.back-dash p {
+    padding-top:16px;
+    color:#fff;
+    line-height:25px;
+    text-align:justify;
+    font-size:13px;
+}
+.back-footer-green {
+    background-color: #009B50;
+    border-top: 0px solid #fff;
+}
+     .back-footer-red {
+    background-color: #AF0000;
+    border-top: 0px solid #fff;
+}
+     .color-bottom-txt {
+   color: #1c1c1c;
+font-size: 16px;
+line-height: 30px;
+}
+     /*CHAT PANEL*/
+ .chat-panel .panel-body {
+height: 450px;
+overflow-y: scroll;
+}
+
+ .chat-box {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+ .chat-box li {
+margin-bottom: 15px;
+padding-bottom: 5px;
+border-bottom: 1px dotted #fff;
+}
+ .chat-box li.left .chat-body {
+margin-left: 90px;
+}
+
+.chat-box li .chat-body p {
+margin: 0;
+color: #8d8888;
+}
+.chat-img>img {
+    margin-left:20px;
+}
+
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+
+.user-image {
+margin: 25px auto;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+max-height:170px;
+max-width:170px;
+}
+
+.navbar-cls-top .navbar-brand {
+color: #fff;
+background: #D17792;
+width: 260px;
+padding-top: 18px;
+height: 60px;
+font-size: 24px;
+font-weight: 600;
+top: 0;
+}
+
+#tablePembayaran {
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    background-color: white;
+}
+
+
+#dataTables-example td, #dataTables-example th{
+    border-collapse: collapse;
+    border: 2px solid #1c1c1c;
+}
+
+
+#dataTables-example th{
+    background-color: #CCCCCC;
+    color: #1C1C1C;
+}
+
+#dataTables-example tr:nth-child(even){
+    background-color: #fff;
+}
+
+.active-menu {
+    background-color:#D17792;
+}
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+.sidebar-collapse , .sidebar-collapse .nav{
+	background:none;
+    color: #fff;
+}
+.sidebar-collapse .nav {
+    padding: 28px;
+}
+.sidebar-collapse .nav > li > a {
+	color:#1c1c1c;
+	background:#fff;
+	text-shadow:none;
+    text-align: centers;
+    border-radius: 4px;
+    margin-top: 10px;
+	
+}
+.sidebar-collapse > .nav > li > a {
+	padding:15px 40px;
+}
+
+
+.sidebar-collapse > .nav > li {
+	border-bottom: 1px solid #FFF;
+}
+
+
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	color: #fff;
+	background:#D17792;
+	outline:0;
+}
+
+.nav-second-level > li > a:before ,
+.nav-third-level > li > a:before {
+	display:block;
+	position:absolute;
+	left:20px;
+	width:15px;
+	height:1px;
+	background:#000;
+	top:20px;
+}
+.nav-second-level > li > a:after,
+.nav-third-level > li > a:after {
+	content:"<";
+	display:block;
+	position:absolute;
+	left:20px;
+	width:1px;
+	height:100%;
+	background:#fff;
+	top:0px;
+	z-index:10;
+}
+.nav-second-level  > li:last-child > a:after,
+.nav-third-level  > li:last-child > a:after {
+	height:50%;
+}
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before  {
+	left:40px;
+}
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-cls-top {
+	background:#D17792;
+	border-bottom:none;
+	
+}
+.navbar-cls-top .navbar-brand:hover {
+
+background: #D17792;
+color:#fff;
+
+}
+
+
+.navbar-default {
+border: none;
+     
+}
+.navbar-header {
+    background: #D17792;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #B40101;
+}
+.navbar-default .navbar-toggle {
+border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFF;
+}
+.nav > li > a > i {
+    margin-right:10px;
+}
+/*==============================================
+    UI ELEMENTS STYLES     
+    =============================================*/
+.btn-circle {
+width: 50px;
+height: 50px;
+padding: 6px 0;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+text-align: center;
+font-size: 12px;
+line-height: 1.428571429;
+}
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1200px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+
+   .navbar {
+ border-radius: 0px; 
+}
+   
+}
+
+

@@ -1,0 +1,44 @@
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D17792;
+    font-size: 16px;
+    color: #252525;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Page Login/Masuk */
+.gambar-logo img {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(134, 100, 100, 0.2), 0 6px 20px 0 rgba(102, 71, 71, 0.19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    width: 30%;
+    z-index: 5;
+    -webkit-transition: all .3s ease;
+}
+
+#btn-login {
+    background-color: #D17792;
+    border: 2px solid #D17792;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* admin */

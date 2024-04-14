@@ -1,0 +1,591 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #252525;
+    font-size: 16px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.93);
+    backdrop-filter: blur(10px) saturate(150%);
+}
+
+.nav-link {
+    color: #aaa;
+}
+
+.nav-link:hover {
+    color: #D17792;
+}
+
+.nav-link-cs {
+    text-decoration: none;
+}
+
+.navbar .navtop .wa {
+    margin-right: 6px;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.breadcrumb-item {
+    text-align: center;
+}
+
+.breadcrumb-item a {
+    color: #BBBBBB;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.breadcrumb-item a:hover {
+    color: #D17792;
+}
+
+.breadcrumb-item.active {
+    margin-left: 0;
+    font-weight: 700;
+    color: #252525;
+}
+
+/* Button */
+#button-see-more {
+    border: 2px solid #D17792;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #D17792;
+    margin-top: 30px;
+    padding: 10px 48px;
+}
+
+#button-see-more:hover {
+    border: 2px solid #D17792;
+    border-radius: 8px;
+    background-color: #D17792;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 48px;
+}
+
+#button-default {
+    background-color: #D17792;
+    color: #fff;
+    border: 2px solid #D17792;
+}
+
+#button-contact {
+    background-color: #D17792;
+    color: #fff;
+    border: 2px solid #D17792;
+    padding: 8px 38px;
+}
+
+#button-toko {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #D17792;
+    border: 2px solid #D17792;
+}
+
+#button-toko:hover {
+    background-color: #D17792;
+    color: #fff;
+    border: 2px solid #D17792;
+}
+
+/* Cakes */
+.cakes {
+    margin-top: 60px;
+}
+
+/* Detail-Produk */
+#featured {
+    max-width: 500px;
+    max-height: 600px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 14px;
+    border: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+.feat {
+    border-radius: 14px;
+    overflow: auto;
+
+}
+
+.feat img {
+    height: 348px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.feat-sub {
+    max-height: 90px;
+    max-width: 90px;
+    margin: 12px 12px 12px 0;
+    cursor: pointer;
+    opacity: 0.8;
+    border: 2px solid rgba(0, 0, 0, 0.055);
+    border-radius: 8px;
+    overflow: auto;
+
+}
+
+.feat-sub img {
+    object-fit: cover;
+    max-height: 90px;
+    max-width: 90px;
+}
+
+.feat-sub:hover {
+    opacity: 1;
+    border: 2px solid #D17792;
+}
+
+.feat-sub.active {
+    opacity: 1;
+    border: 2px solid #D17792;
+}
+
+.detail-produk {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.detail-produk p {
+    color: #252525;
+}
+
+
+.detail-produk .deskripsi-detail {
+    font-size: 16px;
+    font-weight: 200;
+    color: #525252;
+}
+
+.detail-produk .nama-produk {
+    font-size: 24px;
+    text-transform: none;
+}
+
+.detail-produk .harga-produk {
+    font-style: normal;
+    font-weight: 550;
+    color: #D17792;
+    font-size: 32px;
+}
+
+/* Promo */
+.detail-promo .promo-judul {
+    font-style: normal;
+    font-weight: 550;
+    color: #D17792;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.detail-promo .promo-deskripsi {
+    font-size: 16px;
+    font-weight: 200;
+    color: #525252;
+    opacity: 0.7;
+}
+
+/* Slider */
+.carousel {
+    margin-top: 40px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+}
+
+
+/* .carousel img {
+    height: 468px;
+    max-width: 100%;
+} */
+
+/* Card Produk and Promo */
+.card {
+    margin-top: 24px;
+    cursor: pointer;
+    border-radius: 14px;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(134, 100, 100, 0.2), 0 6px 20px 0 rgba(102, 71, 71, 0.19);
+}
+
+.card img {
+    height: 200px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    object-fit: cover;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: 550;
+    color: #e291a9;
+}
+
+.card-title-promo {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* About */
+
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-thumbnail {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.about-thumbnail .about-image {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-text {
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.about-text h4 {
+    margin-bottom: 16px;
+}
+
+
+/* Outlet */
+.card-outlet {
+    margin-top: 40px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(134, 100, 100, 0.2), 0 6px 20px 0 rgba(102, 71, 71, 0.19);
+}
+
+.img-outlet {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-outlet img {
+    height: 240px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-title-outlet {
+    margin: 12px 24px;
+}
+
+#font-detail-outlet {
+    font-size: 14px;
+    opacity: 60%;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 12px 24px;
+}
+
+#btngofood {
+    margin-left: 2px;
+    background-color: #fff;
+    border: 2px solid #D17792;
+    color: #D17792;
+}
+
+.btngofood {
+    margin-left: 18px;
+    padding-bottom: 20px;
+}
+
+#font-location-outlet {
+    padding-bottom: 0;
+}
+
+#font-location-outlet a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #D17792;
+    margin: 0 24px;
+}
+
+#font-location-outlet a:hover {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #aaa;
+
+}
+
+/* How to Order */
+.howder {
+    display: flex;
+    justify-content: center;
+}
+
+.howderbutton {
+    margin-top: 160px;
+}
+
+.how-order-detail {
+    margin: 20px;
+}
+
+.how-order-detail .how-order-judul {
+    color: #D17792;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.how-order-detail .how-order-button a {
+    margin: 100px;
+}
+
+.how-order-detail .how-order-deskripsi {
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* contact */
+.kontakgambar {
+    margin-top: 40px;
+}
+
+.kontakicon {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    bottom: 0;
+}
+
+footer .foot {
+    list-style-type: none;
+}
+
+footer .foot-link {
+    text-decoration: none;
+    color: #252525;
+}
+
+footer .foot li {
+    padding-top: 8px;
+}
+
+footer .foot-link:hover {
+    color: #D17792;
+}
+
+.copyright {
+    border-top: 1px solid rgba(175, 175, 175, 0.171);
+    color: #969696;
+    padding: 2px;
+    padding-top: 14px;
+    font-size: 10px;
+}
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    .howderbutton {
+        margin-top: 80px;
+    }
+
+    .kontakgambar {
+        margin-top: 80px;
+    }
+
+}
+
+/* Mobile and Tablet */
+@media (max-width: 991.98px) {
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: #252525;
+        font-size: 14px;
+    }
+
+
+    /* Navbar */
+    .nav-link {
+        color: #aaa;
+        margin-top: 8px;
+    }
+
+    .navtop {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    .navbar .navtop .wa {
+        margin-right: 0;
+    }
+
+    /* Slider */
+
+    .carousel {
+        margin-top: 0;
+    }
+
+    .carousel .container-lg {
+        padding: 0;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        overflow: hidden;
+        position: relative;
+        object-fit: contain;
+    }
+
+
+    /* About */
+    .about-text {
+        text-align: justify;
+        margin-top: 24px;
+    }
+
+    /* Detail Produk */
+    .detail-produk .deskripsi-detail {
+        font-size: 14px;
+        font-weight: 200;
+        color: #525252;
+    }
+
+    .detail-produk .nama-produk {
+        font-size: 18px;
+        text-transform: none;
+    }
+
+    .detail-produk .harga-produk {
+        font-style: normal;
+        font-weight: 550;
+        color: #D17792;
+        font-size: 24px;
+    }
+
+    .detail-produk .form-control {
+        font-size: 14px;
+    }
+
+    /* Promo */
+    .detail-promo .promo-judul {
+        font-style: normal;
+        font-weight: 550;
+        color: #D17792;
+        font-size: 24px;
+        margin-top: 16px;
+    }
+
+    .detail-promo .promo-deskripsi {
+        font-size: 14px;
+        font-weight: 200;
+        color: #525252;
+        opacity: 0.7;
+    }
+
+    /* Card */
+    .card-title {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .card-title-promo {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .card img {
+        height: 120px;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        object-fit: cover;
+    }
+
+    /* How to Order */
+    .howder {
+        margin-top: 40px;
+    }
+
+    .howderbutton {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .how-order-detail .how-order-judul {
+        color: #D17792;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .how-order-detail .how-order-button a {
+        margin: 100px;
+    }
+
+    .how-order-detail .how-order-deskripsi {
+        opacity: 70%;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    /* Footer */
+
+    footer .foot {
+        margin-top: 50px;
+    }
+
+    footer .foot-logo {
+        text-align: center;
+    }
+
+}
