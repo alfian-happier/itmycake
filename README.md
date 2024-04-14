@@ -25,4 +25,5 @@ Users can view details of promotions, including applicable terms and conditions.
 How to Order:
 The checkout process is completed by filling out a form that includes shipping and payment details.
 After successful payment, users will receive an order confirmation via email or text message, along with information about the estimated delivery or pickup time.
+
 By providing these features, the "It's My Cake" website offers an easy, enjoyable, and informative cake shopping experience for buyers.
